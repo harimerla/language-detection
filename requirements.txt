@@ -1,0 +1,9 @@
+django
+pickle
+pandas
+numpy
+seaborn
+matplotlib
+nltk
+joblib
+gunicorn

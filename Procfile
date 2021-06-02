@@ -1,0 +1,1 @@
+web: gunicorn Language_Detection.wsgi

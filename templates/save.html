@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block body_block %}
+
+<br><br>
+<form action="{% url 'detect/' %}"></form>
+<div class="row">
+    <div class="container">
+        <div class="row" style="text-align:center">
+            <div class="col-sm">
+                <p class="display-4">Language Detector</p>
+                <br>
+            </div>
+        </div>
+        <div class="row" style="text-align:center">
+        <div class="col-sm">
+            <textarea type="text" name="input" style="width: 300px; height:150px"></textarea>
+        </div>
+        <div class="col-sm">
+            <textarea type="text" name="result" style="width: 300px; height:150px"></textarea>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-sm" style="text-align:center">
+                <input type="button" name="detect" value="Detect" class="btn btn-primary">
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
