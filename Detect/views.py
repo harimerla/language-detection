@@ -3,6 +3,7 @@ from django.http import HttpResponse
 import os
 import pickle
 import pandas as pd
+import sklearn
 
 # Create your views here.
 def index(request):
