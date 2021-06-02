@@ -7,3 +7,4 @@ nltk
 joblib
 gunicorn
 django-heroku
+scikit-learn
