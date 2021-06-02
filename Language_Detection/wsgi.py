@@ -7,7 +7,13 @@ For more information on this file, see
 https://docs.djangoproject.com/en/3.0/howto/deployment/wsgi/
 """
 
-import os
+import os, sys
+# add the hellodjango project path into the sys.path
+path = os.path.dirname(os.path.dirname(__file__))
+sys.path.append(os.path.join(path, '/Language_Detection'))
+
+# add the virtualenv site-packages path to the sys.path
+sys.path.append('<PATH_TO_VIRTUALENV>/Lib/site-packages')
 
 from django.core.wsgi import get_wsgi_application
 
