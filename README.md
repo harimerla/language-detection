@@ -1,4 +1,4 @@
-# language-detection
+# Language-detection
 
 Project deployed in the below url:
 https://peaceful-atoll-75995.herokuapp.com/detect/
