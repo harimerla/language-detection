@@ -4,8 +4,8 @@ Project deployed in the below url:
 https://peaceful-atoll-75995.herokuapp.com/detect/
 
 ## Tools used
-1. Django - Python web framework
-2. NLP - One of the domain in AI to understand human language
+1. Django - Python web framework.
+2. NLP - One of the domain in AI to understand human language.
 3. SVC - Support vector machine. machine learning algorithm.
 4. Heroku(deployment) - Web service to deploy appilications.
 
